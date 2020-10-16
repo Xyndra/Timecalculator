@@ -1,4 +1,4 @@
-1.1.8
+1.1.9
 *****
 | Timecalculator is a my first library, so do not await to much.
 | It is used to calculate with time.
