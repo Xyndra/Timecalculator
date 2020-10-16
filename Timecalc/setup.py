@@ -8,13 +8,14 @@ classifiers = [
 
 setup(
     name="timecalculator",
-    version="1.1.8",
+    version="1.1.9",
     packages=find_packages(),
     long_description=open('README.rst').read(),
     author="Xyndra",
     author_email="sammy@deutschergamingserver.de",
     license="MIT",
-    keywords=["time","calculator"],
+    url='https://github.com/Xyndra/Timecalculator',
+    keywords=["time", "calculator"],
     description="A time calculator",
     classifiers=classifiers
 )
