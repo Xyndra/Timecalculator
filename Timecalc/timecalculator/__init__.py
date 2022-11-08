@@ -3,44 +3,36 @@ import time
 
 def sys_time():
     t1 = time.localtime()
-    t2 = time.strftime("%a, %d %b %Y, %H:%M:%S", t1)
-    return t2
+    return time.strftime("%a, %d %b %Y, %H:%M:%S", t1)
 
 
-def mintosec(minutes):
-    t = minutes * 60
-    return t
+def mintosec(minutes: int | float) -> int | float:
+    return minutes * 60
 
 
-def htosec(hours):
-    t = hours * 60 * 60
-    return t
+def htosec(hours: int | float) -> int | float:
+    return hours * 60 * 60
 
 
-def daytosec(days):
-    t = days * 24 * 60 * 60
-    return t
+def daytosec(days: int | float) -> int | float:
+    return days * 24 * 60 * 60
 
 
-def work_week():
-    t = 1 * 5 * 24 * 60 * 60
-    return t
+def work_week() -> int | float:
+    return 1 * 5 * 24 * 60 * 60
 
 
-def weektosec(weeks):
-    t = weeks * 7 * 24 * 60 * 60
-    return t
+def weektosec(weeks: int | float) -> int | float:
+    return weeks * 7 * 24 * 60 * 60
 
 
-def weekend():
+def weekend() -> int | float:
     return 2 * 24 * 60 * 60
 
 
-def monthtosec(months):
-    t = months * 30 * 24 * 60 * 60
-    return t
+def monthtosec(months: int | float) -> int | float:
+    return months * 30 * 24 * 60 * 60
 
 
-def yeartosec(years):
-    t = years * 365 * 24 * 60 * 60
-    return t
+def yeartosec(years: int | float) -> int | float:
+    return years * 365 * 24 * 60 * 60
