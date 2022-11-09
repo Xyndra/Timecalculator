@@ -3,7 +3,7 @@ import time
 
 def raiseError(param):
     if not isinstance(param, int | float):
-        raise ValueError(f"arg={param} is not Valid Type for this function")
+        raise ValueError(f"arg={param} is not Valid Type for this function(should be int or float)")
 
 
 def sys_time():
