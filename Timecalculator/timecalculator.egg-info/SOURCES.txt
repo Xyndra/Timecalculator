@@ -1,5 +1,5 @@
 LICENCE.txt
-README.rst
+README.md
 setup.py
 timecalculator/__init__.py
 timecalculator.egg-info/PKG-INFO
